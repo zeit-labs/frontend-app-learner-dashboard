@@ -17,7 +17,7 @@
     "quality": "npm run lint-fix && npm run test",
     "watch-tests": "jest --watch",
     "snapshot": "fedx-scripts jest --updateSnapshot",
-    "prepare": "npm run build"
+    "prepare": "husky install"
   },
   "author": "edX",
   "license": "AGPL-3.0",
@@ -82,7 +82,7 @@
   },
   "devDependencies": {
     "@edx/reactifex": "^2.1.1",
-    "@openedx/frontend-build": "^13.1.4",
+    "@openedx/frontend-build": "13.1.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.0",
     "axios-mock-adapter": "^1.20.0",
